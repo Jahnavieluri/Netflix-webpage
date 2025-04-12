@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.lang-select {
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.sign-in-btn {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/86ce6b4d-8e0b-403a-92dc-b26d96258cc7/80c76c9a-b69b-4e9e-872e-7caddf63b1f7/IN-en-20240408-popsignuptwoweeks-perspective_alpha_website_large.jpg') center/cover no-repeat;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section h2 {
+    font-size: 1.8rem;
+    margin: 15px 0;
+}
+
+.hero-section p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.input-container input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 2px;
+}
+
+.input-container button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+hr {
+    border: none;
+    height: 8px;
+    background-color: #222;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.text-content {
+    max-width: 500px;
+}
+
+.text-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1.2rem;
+}
+
+.media-content {
+    position: relative;
+}
+
+.media-content img {
+    width: 100%;
+    max-width: 400px;
+    z-index: 1;
+}
+
+.media-content video {
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 73%;
+    z-index: 0;
+}
+
+.footer {
+    padding: 40px;
+    background-color: black;
+    color: #999;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.footer-links a {
+    color: #999;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer select {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #999;
+    padding: 5px 10px;
+}
